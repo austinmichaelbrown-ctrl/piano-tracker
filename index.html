@@ -90,6 +90,13 @@
             transform: translateY(-5px);
         }
 
+        .piano-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background-color: #eee;
+        }
+
         .piano-info {
             padding: 20px;
         }
@@ -125,8 +132,6 @@
             color: #27ae60;
         }
 
-<<<<<<< Updated upstream
-=======
         .piano-location {
             font-size: 0.85rem;
             color: #666;
@@ -150,7 +155,6 @@
             margin-left: auto; /* Pushes button to the right */
         }
 
->>>>>>> Stashed changes
         .source-tag {
             background: #edf2f7;
             padding: 4px 10px;
@@ -186,11 +190,11 @@
                 <label>Brand</label>
                 <select id="brandFilter">
                     <option value="all">All Brands</option>
-                    <option value="Steinway">Steinway</option>
-                    <option value="Yamaha">Yamaha</option>
-                    <option value="Kawai">Kawai</option>
-                    <option value="Baldwin">Baldwin</option>
                 </select>
+            </div>
+            <div class="filter-group">
+                <label>Search Model</label>
+                <input type="text" id="searchFilter" placeholder="e.g. Model M">
             </div>
             <div class="filter-group">
                 <label>Max Price</label>
@@ -204,6 +208,9 @@
                     <option value="medium">Medium (5'3" - 5'7")</option>
                     <option value="large">Large (5'8"+)</option>
                 </select>
+            </div>
+            <div class="filter-group">
+                <button type="button" id="clearFilters" class="clear-btn">Clear Filters</button>
             </div>
         </div>
 
@@ -220,28 +227,21 @@
             const brand = document.getElementById('brandFilter').value;
             const maxPrice = parseFloat(document.getElementById('priceFilter').value) || Infinity;
             const sizeVal = document.getElementById('sizeFilter').value;
+            const searchText = document.getElementById('searchFilter').value.toLowerCase();
 
             const filtered = listings.filter(item => {
                 const brandMatch = brand === 'all' || item.brand === brand;
                 const priceMatch = item.price <= maxPrice;
-                
+                const searchMatch = item.model.toLowerCase().includes(searchText);
                 let sizeMatch = true;
                 if (sizeVal !== 'all') {
                     // Standardize size to inches for comparison
-<<<<<<< Updated upstream
-                    const sizeStr = item.size || "";
-                    const feetMatch = sizeStr.match(/(\d+)'/);
-                    const inchMatch = sizeStr.match(/(\d+)"/);
-                    const totalInches = (feetMatch ? parseInt(feetMatch[1]) * 12 : 60) + 
-                                       (inchMatch ? parseInt(inchMatch[1]) : 0);
-=======
                     const sizeStr = (item.size || "").toLowerCase(); // Ensure item.size is a string
                     let totalInches = 0;
 
                     // Handle "N/A" or unparseable sizes
                     const feetMatch = sizeStr.match(/(\d+)'/);
                     const inchMatch = sizeStr.match(/(\d+)"/);
->>>>>>> Stashed changes
 
                     if (!feetMatch && !inchMatch) {
                         sizeMatch = false; // Cannot match specific size filter if size is unknown
@@ -260,7 +260,7 @@
                     }
                 }
 
-                return brandMatch && priceMatch && sizeMatch;
+                return brandMatch && priceMatch && sizeMatch && searchMatch;
             });
 
             if (filtered.length === 0) {
@@ -270,19 +270,16 @@
 
             grid.innerHTML = filtered.map(item => `
                 <div class="piano-card">
-<<<<<<< Updated upstream
-=======
                     <img src="${item.image && item.image.startsWith('http') ? item.image : 'https://via.placeholder.com/300x200?text=No+Image'}" 
                          class="piano-img" 
                          alt="${item.model}"
                          onerror="this.onerror=null;this.src='https://via.placeholder.com/300x200?text=Image+Not+Available';">
->>>>>>> Stashed changes
                     <div class="piano-info">
                         <div class="piano-brand">${item.brand}</div>
                         <div class="piano-title">${item.model} (${item.size})</div>
+                        <div class="piano-location">📍 ${item.location}</div>
                         <div class="piano-meta">
-                            <span class="price">$${item.price.toLocaleString()}</span>
-                            <span class="source-tag">${item.source}</span>
+                            <span class="price">$${item.price > 0 ? item.price.toLocaleString() : 'Inquire'}</span>
                         </div>
                         <a href="${item.link}" target="_blank" class="view-btn">View Listing</a>
                     </div>
@@ -293,10 +290,9 @@
         // Add event listeners to trigger rendering on input changes
         document.getElementById('brandFilter').addEventListener('change', renderListings);
         document.getElementById('priceFilter').addEventListener('input', renderListings);
+        document.getElementById('searchFilter').addEventListener('input', renderListings);
         document.getElementById('sizeFilter').addEventListener('change', renderListings);
 
-<<<<<<< Updated upstream
-=======
         document.getElementById('clearFilters').addEventListener('click', () => {
             document.getElementById('brandFilter').value = 'all';
             document.getElementById('priceFilter').value = '';
@@ -321,17 +317,13 @@
 
         grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px;">Loading listings...</div>';
 
->>>>>>> Stashed changes
         fetch('data.json')
             .then(res => res.json())
             .then(data => {
                 listings = data;
-<<<<<<< Updated upstream
-=======
                 // Sort listings by price (lowest first) for a consistent view
                 listings.sort((a, b) => a.price - b.price);
                 populateBrands(data);
->>>>>>> Stashed changes
                 renderListings();
                 updateLastUpdated();
             })

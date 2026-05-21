@@ -2,16 +2,18 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import os
-import time
+import re
 
-def scrape_pianomart():
-    print("Scraping PianoMart...")
-    url = "https://www.pianomart.com/buy-a-piano/view-all-pianos?style=1&finish=1"
-    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
+def scrape_listings():
+    # Updated URL to the specific search results page provided
+    url = "https://www.pianomart.com/buy-a-piano/piano-ads?AdSearchForm%5Bpiano_type_id%5D=1"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Referer": "https://www.pianomart.com/"
+    }
+
     try:
-<<<<<<< Updated upstream
-        response = requests.get(url, headers=headers)
-=======
         print(f"Attempting to scrape: {url}")
         # Added a timeout to prevent the script from hanging indefinitely
         response = requests.get(url, headers=headers, timeout=15)
@@ -21,24 +23,29 @@ def scrape_pianomart():
             print("Failed to retrieve the page. The site might be blocking the request.")
             return
 
->>>>>>> Stashed changes
         soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # DEBUG: Save what the scraper sees to a file
+        with open('debug.html', 'w', encoding='utf-8') as f:
+            f.write(response.text)
+
         listings = []
-        # Updated selector based on common PianoMart listing structure
-        items = soup.select('div.card.mb-3') 
-        for i, item in enumerate(items):
+
+        # Based on debug.html, listings are in a specific table structure
+        rows = soup.select('table.buy-piano-listing-table tbody tr')
+        print(f"Found {len(rows)} potential listing rows. Extracting data...")
+
+        seen_links = set()
+        for row in rows:
             try:
-                title_element = item.select_one('.card-title')
-                price_element = item.select_one('.text-success')
-                link_element = item.select_one('a')
+                cols = row.find_all('td')
+                if len(cols) < 5:
+                    continue
 
-                title = title_element.text.strip() if title_element else "Unknown Model"
-                price_text = price_element.text.strip() if price_element else "$0"
-                price = int(''.join(filter(str.isdigit, price_text))) if price_text else 0
-                link = link_element['href'] if link_element else "#"
+                # The image is in the 1st column (index 0)
+                img_elem = cols[0].find('img')
+                img_url = img_elem['src'] if img_elem else ""
 
-<<<<<<< Updated upstream
-=======
                 # The listing link and title are in the 3rd column (index 2)
                 link_elem = cols[2].find('a', href=True)
                 if not link_elem:
@@ -59,8 +66,13 @@ def scrape_pianomart():
 
                 # Extract Price
                 price_match = re.search(r'\$(\d{1,3}(?:,\d{3})*)', price_text)
-                # Ensure we only try to replace/convert if we found a match
-                price_val = int(price_match.group(1).replace(',', '')) if (price_match and price_match.group(1)) else 0
+                # Defensive check: price_match.group(1) only if match is found
+                price_val = 0
+                if price_match:
+                    try:
+                        price_val = int(price_match.group(1).replace(',', ''))
+                    except (ValueError, IndexError):
+                        price_val = 0
                 
                 # 5. Determine Brand
                 BRANDS = [
@@ -82,106 +94,33 @@ def scrape_pianomart():
                 # Clean up year formatting (handles "1992 - 1993" or "TBA")
                 display_year = year.split('-')[0].strip() if '-' in year else year
                 
->>>>>>> Stashed changes
                 listings.append({
-                    "id": f"pm-{i}",
-                    "brand": title.split(' ')[0],
-                    "model": title,
-                    "price": price,
-                    "size": "Unknown", # PianoMart often requires clicking into detail page for size
+                    "brand": found_brand,
+                    "model": f"{display_year} {title}" if display_year and display_year != "TBA" else title,
+                    "image": img_url,
+                    "size": size_val, 
+                    "price": price_val,
+                    "location": f"{city}, {state}" if city and state else state or city or "Unknown",
                     "source": "PianoMart",
-                    "link": "https://www.pianomart.com" + link if not link.startswith('http') else link
+                    "link": full_link
                 })
-            except Exception as item_e:
-                print(f"  Error parsing PianoMart item {i}: {item_e}")
+
+            except Exception as row_err:
+                print(f"Skipping row due to parsing error: {row_err}")
                 continue
-        return listings
+
+        # Fallback/Sample data if scraper finds nothing (to prevent empty UI during testing)
+        if not listings:
+            print("No listings found, keeping existing data or adding samples.")
+            return
+
+        with open('data.json', 'w', encoding='utf-8') as f:
+            json.dump(listings, f, indent=4, ensure_ascii=False)
+        
+        print(f"Successfully scraped {len(listings)} listings.")
+
     except Exception as e:
-        print(f"PianoMart error: {e}")
-        return []
-
-def scrape_piano_nation():
-    print("Scraping Piano Nation...")
-    url = "https://pianonation.com/pianos/pre-owned-pianos/"
-    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
-    try:
-        response = requests.get(url, headers=headers)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        listings = []
-        # Piano Nation often uses standard WooCommerce structures
-        items = soup.select('li.product')
-        for i, item in enumerate(items):
-            title_element = item.select_one('.woocommerce-loop-product__title')
-            price_element = item.select_one('.price')
-            link_element = item.select_one('a.woocommerce-LoopProduct-link')
-
-            title = title_element.text.strip() if title_element else "Unknown Model"
-            price = int(''.join(filter(str.isdigit, price_element.text))) if price_element else 0
-            link = link_element['href'] if link_element else "#"
-
-            # Filter for "grand" pianos, as the page lists all types
-            if "grand" in title.lower() and price > 0:
-                listings.append({
-                    "id": f"pn-{i}",
-                    "brand": title.split(' ')[0],
-                    "model": title,
-                    "price": price,
-                    "size": "Baby Grand", # Placeholder, often in description
-                    "source": "Piano Nation",
-                    "link": link
-                })
-    except Exception as e:
-        print(f"Piano Nation error: {e}")
-        return []
-    return listings
-
-def scrape_ebay():
-    print("Scraping eBay...")
-    url = "https://www.ebay.com/sch/i.html?_nkw=black+baby+grand+piano&_sacat=0"
-    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
-    try:
-        response = requests.get(url, headers=headers)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        listings = []
-        items = soup.select('.s-item__info')
-        for i, item in enumerate(items[1:]): # Skip first item (usually placeholder)
-            title_element = item.select_one('.s-item__title')
-            price_element = item.select_one('.s-item__price')
-            link_element = item.select_one('.s-item__link')
-
-            title = title_element.text.strip() if title_element else "Unknown Model"
-            price_text = price_element.text.strip() if price_element else "$0"
-            price = int(''.join(filter(str.isdigit, price_text.split('.')[0]))) if price_text else 0
-            link = link_element['href'] if link_element else "#"
-
-            listings.append({
-                "id": f"eb-{i}",
-                "brand": "Other",
-                "model": title,
-                "price": price,
-                "size": "Baby Grand", # Placeholder, often in description
-                "source": "eBay",
-                "link": link
-            })
-        return listings
-    except Exception as e:
-        print(f"eBay error: {e}")
-        return []
-
-def main():
-    print("Starting piano price crawl...")
-    all_results = []
-    all_results.extend(scrape_pianomart())
-    time.sleep(2) # Be polite, wait a bit before next request
-    all_results.extend(scrape_piano_nation())
-    time.sleep(2) # Be polite, wait a bit before next request
-    all_results.extend(scrape_ebay())
-
-    file_path = os.path.join(os.path.dirname(__file__), 'data.json')
-    with open(file_path, 'w') as f:
-        json.dump(all_results, f, indent=4)
-    print(f"Success! {len(all_results)} listings saved to data.json")
+        print(f"Error during scraping: {e}")
 
 if __name__ == "__main__":
-    # You will need to install dependencies: pip install requests beautifulsoup4
-    main()
+    scrape_listings()
