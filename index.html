@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Baby Grand Tracker</title>
+    <style>
+        :root {
+            --bg-color: #f4f4f9;
+            --card-bg: #ffffff;
+            --primary: #2c3e50;
+            --accent: #d4af37; /* Piano gold/brass accent */
+            --text: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        /* Filter Styles */
+        .filter-section {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 30px;
+            align-items: flex-end;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        label {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        select, input {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1rem;
+            min-width: 180px;
+        }
+
+        /* Grid Styles */
+        .piano-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .piano-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+            border-top: 5px solid var(--primary);
+        }
+
+        .piano-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .piano-info {
+            padding: 20px;
+        }
+
+        .piano-brand {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent);
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .piano-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .piano-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #27ae60;
+        }
+
+        .source-tag {
+            background: #edf2f7;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            color: #4a5568;
+        }
+
+        .view-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎹 Black Baby Grand Tracker</h1>
+            <p>Monitoring premium listings across the web</p>
+        </header>
+
+        <div class="filter-section">
+            <div class="filter-group">
+                <label>Brand</label>
+                <select id="brandFilter">
+                    <option value="all">All Brands</option>
+                    <option value="Steinway">Steinway</option>
+                    <option value="Yamaha">Yamaha</option>
+                    <option value="Kawai">Kawai</option>
+                    <option value="Baldwin">Baldwin</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Max Price</label>
+                <input type="number" id="priceFilter" placeholder="e.g. 25000">
+            </div>
+            <div class="filter-group">
+                <label>Size Range</label>
+                <select id="sizeFilter">
+                    <option value="all">Any Size</option>
+                    <option value="small">Small (4'11" - 5'2")</option>
+                    <option value="medium">Medium (5'3" - 5'7")</option>
+                    <option value="large">Large (5'8"+)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="piano-grid" id="pianoGrid">
+            <!-- Data will be injected here -->
+        </div>
+    </div>
+
+    <script>
+        let listings = [];
+        const grid = document.getElementById('pianoGrid');
+
+        function renderListings() {
+            const brand = document.getElementById('brandFilter').value;
+            const maxPrice = parseFloat(document.getElementById('priceFilter').value) || Infinity;
+            const sizeVal = document.getElementById('sizeFilter').value;
+
+            const filtered = listings.filter(item => {
+                const brandMatch = brand === 'all' || item.brand === brand;
+                const priceMatch = item.price <= maxPrice;
+                
+                let sizeMatch = true;
+                if (sizeVal !== 'all') {
+                    // Standardize size to inches for comparison
+                    const sizeStr = item.size || "";
+                    const feetMatch = sizeStr.match(/(\d+)'/);
+                    const inchMatch = sizeStr.match(/(\d+)"/);
+                    const totalInches = (feetMatch ? parseInt(feetMatch[1]) * 12 : 60) + 
+                                       (inchMatch ? parseInt(inchMatch[1]) : 0);
+
+                    if (sizeVal === 'small') sizeMatch = totalInches <= 62;
+                    else if (sizeVal === 'medium') sizeMatch = totalInches > 62 && totalInches <= 67;
+                    else if (sizeVal === 'large') sizeMatch = totalInches > 67;
+                }
+
+                return brandMatch && priceMatch && sizeMatch;
+            });
+
+            grid.innerHTML = filtered.map(item => `
+                <div class="piano-card">
+                    <div class="piano-info">
+                        <div class="piano-brand">${item.brand}</div>
+                        <div class="piano-title">${item.model} (${item.size})</div>
+                        <div class="piano-meta">
+                            <span class="price">$${item.price.toLocaleString()}</span>
+                            <span class="source-tag">${item.source}</span>
+                        </div>
+                        <a href="${item.link}" target="_blank" class="view-btn">View Listing</a>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => {
+                listings = data;
+                renderListings();
+            }).catch(() => console.log("Waiting for data.json..."));
+    </script>
+</body>
+</html>
