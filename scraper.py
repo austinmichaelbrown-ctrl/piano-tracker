@@ -9,7 +9,19 @@ def scrape_pianomart():
     url = "https://www.pianomart.com/buy-a-piano/view-all-pianos?style=1&finish=1"
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
     try:
+<<<<<<< Updated upstream
         response = requests.get(url, headers=headers)
+=======
+        print(f"Attempting to scrape: {url}")
+        # Added a timeout to prevent the script from hanging indefinitely
+        response = requests.get(url, headers=headers, timeout=15)
+        print(f"Server Response: {response.status_code}")
+        
+        if response.status_code != 200:
+            print("Failed to retrieve the page. The site might be blocking the request.")
+            return
+
+>>>>>>> Stashed changes
         soup = BeautifulSoup(response.text, 'html.parser')
         listings = []
         # Updated selector based on common PianoMart listing structure
@@ -25,6 +37,52 @@ def scrape_pianomart():
                 price = int(''.join(filter(str.isdigit, price_text))) if price_text else 0
                 link = link_element['href'] if link_element else "#"
 
+<<<<<<< Updated upstream
+=======
+                # The listing link and title are in the 3rd column (index 2)
+                link_elem = cols[2].find('a', href=True)
+                if not link_elem:
+                    continue
+
+                href = link_elem['href']
+                full_link = href if href.startswith('http') else "https://www.pianomart.com" + href
+                
+                if full_link in seen_links:
+                    continue
+
+                year = cols[1].get_text(strip=True)
+                title = link_elem.get_text(strip=True)
+                size_val = cols[3].get_text(strip=True)
+                price_text = cols[4].get_text(strip=True)
+                state = cols[5].get_text(strip=True)
+                city = cols[6].get_text(strip=True)
+
+                # Extract Price
+                price_match = re.search(r'\$(\d{1,3}(?:,\d{3})*)', price_text)
+                # Ensure we only try to replace/convert if we found a match
+                price_val = int(price_match.group(1).replace(',', '')) if (price_match and price_match.group(1)) else 0
+                
+                # 5. Determine Brand
+                BRANDS = [
+                    "Steinway", "Yamaha", "Kawai", "Baldwin", "Mason & Hamlin", "Bechstein", 
+                    "Bosendorfer", "Schimmel", "Fazioli", "Knabe", "Petrof", "Young Chang", 
+                    "Weber", "Boston", "Essex", "August Förster", "Blüthner", "Grotrian", 
+                    "Sauter", "Samick", "Pearl River", "Wurlitzer", "Chickering", "Kimball", 
+                    "Korg", "Roland", "Casio", "Suzuki", "Nord", "Dexibell", "Fender Rhodes",
+                    "Pleyel", "Gaveau", "Broadwood"
+                ]
+                
+                found_brand = "Other"
+                for b in BRANDS:
+                    if b.lower() in title.lower():
+                        found_brand = b
+                        break
+
+                seen_links.add(full_link)
+                # Clean up year formatting (handles "1992 - 1993" or "TBA")
+                display_year = year.split('-')[0].strip() if '-' in year else year
+                
+>>>>>>> Stashed changes
                 listings.append({
                     "id": f"pm-{i}",
                     "brand": title.split(' ')[0],

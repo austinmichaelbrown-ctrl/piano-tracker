@@ -125,6 +125,32 @@
             color: #27ae60;
         }
 
+<<<<<<< Updated upstream
+=======
+        .piano-location {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: -20px;
+        }
+        .clear-btn {
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            background-color: #f0f0f0;
+            cursor: pointer;
+            font-size: 1rem;
+            min-width: 180px;
+            align-self: flex-end; /* Align with other inputs */
+            margin-left: auto; /* Pushes button to the right */
+        }
+
+>>>>>>> Stashed changes
         .source-tag {
             background: #edf2f7;
             padding: 4px 10px;
@@ -152,6 +178,7 @@
         <header>
             <h1>🎹 Black Baby Grand Tracker</h1>
             <p>Monitoring premium listings across the web</p>
+            <p class="last-updated" id="lastUpdated"></p>
         </header>
 
         <div class="filter-section">
@@ -201,22 +228,55 @@
                 let sizeMatch = true;
                 if (sizeVal !== 'all') {
                     // Standardize size to inches for comparison
+<<<<<<< Updated upstream
                     const sizeStr = item.size || "";
                     const feetMatch = sizeStr.match(/(\d+)'/);
                     const inchMatch = sizeStr.match(/(\d+)"/);
                     const totalInches = (feetMatch ? parseInt(feetMatch[1]) * 12 : 60) + 
                                        (inchMatch ? parseInt(inchMatch[1]) : 0);
+=======
+                    const sizeStr = (item.size || "").toLowerCase(); // Ensure item.size is a string
+                    let totalInches = 0;
 
-                    if (sizeVal === 'small') sizeMatch = totalInches <= 62;
-                    else if (sizeVal === 'medium') sizeMatch = totalInches > 62 && totalInches <= 67;
-                    else if (sizeVal === 'large') sizeMatch = totalInches > 67;
+                    // Handle "N/A" or unparseable sizes
+                    const feetMatch = sizeStr.match(/(\d+)'/);
+                    const inchMatch = sizeStr.match(/(\d+)"/);
+>>>>>>> Stashed changes
+
+                    if (!feetMatch && !inchMatch) {
+                        sizeMatch = false; // Cannot match specific size filter if size is unknown
+                    } else {
+                        if (feetMatch) totalInches += parseInt(feetMatch[1]) * 12;
+                        if (inchMatch) totalInches += parseInt(inchMatch[1]);
+
+                        // Apply range filter if a valid totalInches was calculated
+                        if (totalInches > 0) {
+                            if (sizeVal === 'small') sizeMatch = totalInches <= 62; // Up to 5'2"
+                            else if (sizeVal === 'medium') sizeMatch = totalInches > 62 && totalInches <= 67; // 5'3" to 5'7"
+                            else if (sizeVal === 'large') sizeMatch = totalInches > 67; // 5'8" and up
+                        } else {
+                            sizeMatch = false; // If size string was present but unparseable, it doesn't match a specific filter
+                        }
+                    }
                 }
 
                 return brandMatch && priceMatch && sizeMatch;
             });
 
+            if (filtered.length === 0) {
+                grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px; color: #666;">No pianos found matching those filters.</div>';
+                return;
+            }
+
             grid.innerHTML = filtered.map(item => `
                 <div class="piano-card">
+<<<<<<< Updated upstream
+=======
+                    <img src="${item.image && item.image.startsWith('http') ? item.image : 'https://via.placeholder.com/300x200?text=No+Image'}" 
+                         class="piano-img" 
+                         alt="${item.model}"
+                         onerror="this.onerror=null;this.src='https://via.placeholder.com/300x200?text=Image+Not+Available';">
+>>>>>>> Stashed changes
                     <div class="piano-info">
                         <div class="piano-brand">${item.brand}</div>
                         <div class="piano-title">${item.model} (${item.size})</div>
@@ -235,11 +295,45 @@
         document.getElementById('priceFilter').addEventListener('input', renderListings);
         document.getElementById('sizeFilter').addEventListener('change', renderListings);
 
+<<<<<<< Updated upstream
+=======
+        document.getElementById('clearFilters').addEventListener('click', () => {
+            document.getElementById('brandFilter').value = 'all';
+            document.getElementById('priceFilter').value = '';
+            document.getElementById('searchFilter').value = '';
+            document.getElementById('sizeFilter').value = 'all';
+            renderListings();
+        });
+
+        function populateBrands(data) {
+            const brandSelect = document.getElementById('brandFilter');
+            const brands = [...new Set(data.map(item => item.brand))].sort();
+            
+            brandSelect.innerHTML = '<option value="all">All Brands</option>' + 
+                brands.filter(b => b !== "Other").map(b => `<option value="${b}">${b}</option>`).join('') +
+                (brands.includes("Other") ? '<option value="Other">Other</option>' : '');
+        }
+
+        function updateLastUpdated() {
+            const lastModified = new Date(document.lastModified);
+            document.getElementById('lastUpdated').textContent = `Last Updated: ${lastModified.toLocaleDateString()} ${lastModified.toLocaleTimeString()}`;
+        }
+
+        grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 40px;">Loading listings...</div>';
+
+>>>>>>> Stashed changes
         fetch('data.json')
             .then(res => res.json())
             .then(data => {
                 listings = data;
+<<<<<<< Updated upstream
+=======
+                // Sort listings by price (lowest first) for a consistent view
+                listings.sort((a, b) => a.price - b.price);
+                populateBrands(data);
+>>>>>>> Stashed changes
                 renderListings();
+                updateLastUpdated();
             })
             .catch(err => console.error("Error loading data.json:", err));
     </script>
