@@ -230,12 +230,18 @@
             `).join('');
         }
 
+        // Add event listeners to trigger rendering on input changes
+        document.getElementById('brandFilter').addEventListener('change', renderListings);
+        document.getElementById('priceFilter').addEventListener('input', renderListings);
+        document.getElementById('sizeFilter').addEventListener('change', renderListings);
+
         fetch('data.json')
             .then(res => res.json())
             .then(data => {
                 listings = data;
                 renderListings();
-            }).catch(() => console.log("Waiting for data.json..."));
+            })
+            .catch(err => console.error("Error loading data.json:", err));
     </script>
 </body>
 </html>

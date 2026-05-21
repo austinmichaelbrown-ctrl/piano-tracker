@@ -1,0 +1,18 @@
+[
+    {
+        "brand": "Steinway",
+        "model": "Model S",
+        "size": "5'1\"",
+        "price": 28500,
+        "source": "PianoMart",
+        "link": "#"
+    },
+    {
+        "brand": "Yamaha",
+        "model": "GC1",
+        "size": "5'3\"",
+        "price": 14900,
+        "source": "eBay",
+        "link": "#"
+    }
+]
