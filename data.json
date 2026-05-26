@@ -1,13 +1,23 @@
 [
     {
         "brand": "Other",
-        "model": "Kranich & Bach baby grand: 1-DAY SALE!",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65432_65727_6a13bb51bc5a3_sm.jpg",
-        "size": "5'5\"",
-        "price": 1000,
-        "location": "Columbus, Ohio",
+        "model": "2022 5'2 Baby grand from Hellet and Davis",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65544_65750_6a15116620ec6_sm.jpeg",
+        "size": "5'2\"",
+        "price": 4250,
+        "location": "Palm Springs, California",
         "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65727"
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=65750"
+    },
+    {
+        "brand": "Steinway",
+        "model": "Steinway & Sons Model M Grand Piano – 5'7\"",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/864_63076_6a14c3b1b89ce_sm.jpeg",
+        "size": "5'7\"",
+        "price": 8995,
+        "location": "lilburn, Georgia",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=63076"
     },
     {
         "brand": "Steinway",
@@ -18,6 +28,46 @@
         "location": "West Sacramento, California",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=65725"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1898 The Clemson Steinway. 1898 One-of-a-kind Art Case. Model A",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/60036_65256_69ebfa4784324_sm.jpeg",
+        "size": "6'2\"",
+        "price": 250000,
+        "location": "Soquel, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=65256"
+    },
+    {
+        "brand": "Other",
+        "model": "1929 Beautiful 6’ Charles Fredrick Stein",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/62646_63329_69262d285ce5a_sm.jpeg",
+        "size": "6'",
+        "price": 26000,
+        "location": "Roselle, Illinois",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=63329"
+    },
+    {
+        "brand": "Other",
+        "model": "1987 Rare Feurich Grand",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/62646_63328_692625c7cf0de_sm.jpeg",
+        "size": "5'6\"",
+        "price": 78000,
+        "location": "Roselle, Illinois",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=63328"
+    },
+    {
+        "brand": "Baldwin",
+        "model": "1908 Baldwin Grand Piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/58137_59572_6795457325ad1_sm.jpg",
+        "size": "6'3\"",
+        "price": 9600,
+        "location": "El Sobrante, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=59572"
     },
     {
         "brand": "Other",
@@ -34,7 +84,7 @@
         "model": "1905 1905 Chickering and Sons Quarter Grand-121 scale",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65511_65717_6a130fc159946_sm.jpeg",
         "size": "5'7\"",
-        "price": 6000,
+        "price": 4500,
         "location": "Rochester, Minnesota",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=65717"
@@ -84,7 +134,7 @@
         "model": "1909 Steinway & Sons Model O Grand Piano – Honduran Mahogany",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/864_65712_6a1235f7e19a2_sm.jpeg",
         "size": "5'11\"",
-        "price": 4995,
+        "price": 9995,
         "location": "lilburn, Georgia",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=65712"
@@ -93,7 +143,7 @@
         "brand": "Petrof",
         "model": "Mid 1990s Petrof",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65504_65710_6a122a3c43a5d_sm.jpeg",
-        "size": "5'9\"",
+        "size": "5'8\"",
         "price": 13900,
         "location": "Scottsdale, Arizona",
         "source": "PianoMart",
@@ -148,55 +198,5 @@
         "location": "Missoula, Montana",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=64772"
-    },
-    {
-        "brand": "Other",
-        "model": "1874 Antique Haines Bros Square Grand Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64204_64765_69c12343d6e70_sm.jpeg",
-        "size": "6'6\"",
-        "price": 15000,
-        "location": "Anderson, Texas",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64765"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1923 Can't find a GREAT used Steinway Grand? This is STUDIO READY",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/58668_60005_67c9110a63b36_sm.jpg",
-        "size": "5'7\"",
-        "price": 11400,
-        "location": "Carson, California",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=60005"
-    },
-    {
-        "brand": "Petrof",
-        "model": "1985 Heirloom Petrof Model II 7'9\" Semi-Concert Grand",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63948_64359_699ba4de07b36_sm.jpg",
-        "size": "8'",
-        "price": 29750,
-        "location": "WALTON, Kentucky",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64359"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1894 Antique Steinway Grand Model A-6'- excellent condition",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63090_63640_694b0ecd23085_sm.jpeg",
-        "size": "6'1\"",
-        "price": 30000,
-        "location": "Boca Raton, Florida",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=63640"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1933 Excellent Condition Steinway AIII Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/62310_62935_68fabe4c75146_sm.jpg",
-        "size": "6'4\"",
-        "price": 40000,
-        "location": "Brooklyn, New York",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=62935"
     }
 ]
