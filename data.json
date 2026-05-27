@@ -1,5 +1,45 @@
 [
     {
+        "brand": "Steinway",
+        "model": "1911 Steinway Model A Grand Piano | Restored by Lindeblad Piano R",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65556_65760_6a15e39667b09_sm.jpg",
+        "size": "6'2\"",
+        "price": 12000,
+        "location": "Beulah, Wyoming",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=65760"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1991 Steinway & Sons Model B",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65549_65754_6a1597e34db91_sm.jpeg",
+        "size": "6'11\"",
+        "price": 55000,
+        "location": "Redondo Beach, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=65754"
+    },
+    {
+        "brand": "Other",
+        "model": "1861 #10 of 10 George Guild Antique Pianos",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64430_64820_69c555deb6c9a_sm.jpeg",
+        "size": "7'3\"",
+        "price": 30000,
+        "location": "Tega Cay, South Carolina",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=64820"
+    },
+    {
+        "brand": "Schimmel",
+        "model": "1986 Rare Golden Era Schimmel 6’9” Grand Piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/61289_63992_6976bb33e08aa_sm.jpeg",
+        "size": "6'9\"",
+        "price": 18800,
+        "location": "Oakland, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=63992"
+    },
+    {
         "brand": "Other",
         "model": "2022 5'2 Baby grand from Hellet and Davis",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65544_65750_6a15116620ec6_sm.jpeg",
@@ -18,16 +58,6 @@
         "location": "lilburn, Georgia",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=63076"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1927 Steinway modal M totally restored",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/29950_65725_6a135fa0d5f4c_sm.jpeg",
-        "size": "5'7\"",
-        "price": 28000,
-        "location": "West Sacramento, California",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65725"
     },
     {
         "brand": "Steinway",
@@ -74,7 +104,7 @@
         "model": "Zimmerman 408180",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65520_65724_6a135db183048_sm.jpeg",
         "size": "5'",
-        "price": 1500,
+        "price": 1250,
         "location": "Wadsworth, Illinois",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=65724"
@@ -168,35 +198,5 @@
         "location": "Katonah, New York",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=64499"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1981 Steinway B 1981 original",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/38445_59780_67ade50a0768c_sm.jpg",
-        "size": "6'11\"",
-        "price": 36000,
-        "location": "Katonah, New York",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=59780"
-    },
-    {
-        "brand": "Other",
-        "model": "Story & Clark Baby Grand with QR",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/60259_61709_6877aeef9f536_sm.jpg",
-        "size": "5'3\"",
-        "price": 3500,
-        "location": "Henderson, Nevada",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=61709"
-    },
-    {
-        "brand": "Bechstein",
-        "model": "1898 Rare Bechstein Grand",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64449_64772_69c17bd864a54_sm.jpeg",
-        "size": "6'6\"",
-        "price": 38000,
-        "location": "Missoula, Montana",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64772"
     }
 ]
