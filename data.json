@@ -1,5 +1,25 @@
 [
     {
+        "brand": "Samick",
+        "model": "UNK *PRICE REDUCED* Pristine Samick SG-161 with bench",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63163_63706_69554a45ab87e_sm.jpg",
+        "size": "5'3\"",
+        "price": 1500,
+        "location": "Brigantine, New Jersey",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=63706"
+    },
+    {
+        "brand": "Other",
+        "model": "1909 Refurbished Don't know",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/56012_57700_66aab3d95fd8e_sm.jpg",
+        "size": "5'4\"",
+        "price": 5000,
+        "location": "Fountain Valley, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=57700"
+    },
+    {
         "brand": "Mason & Hamlin",
         "model": "1906 Mason & Hamlin CC1",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/58212_65826_6a1b3c2e394a6_sm.jpg",
@@ -178,25 +198,5 @@
         "location": "Chattaroy, Washington",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=65795"
-    },
-    {
-        "brand": "Other",
-        "model": "2007 Lightly used Grand Piano - Excellent Condition",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65599_65793_6a189991962ea_sm.jpg",
-        "size": "5'3\"",
-        "price": 13000,
-        "location": "Owings, Maryland",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65793"
-    },
-    {
-        "brand": "Kimball",
-        "model": "1979 Kimball Classic Medallion Parlor Grand (Pristine Condition)",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65597_65791_6a188adf45145_sm.jpg",
-        "size": "5'9\"",
-        "price": 3500,
-        "location": "Oklahoma City, Oklahoma",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65791"
     }
 ]
