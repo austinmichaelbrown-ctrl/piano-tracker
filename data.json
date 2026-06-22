@@ -1,6 +1,56 @@
 [
     {
         "brand": "Steinway",
+        "model": "1918 1918 Steinway & Sons Model M",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/28156_66198_6a38065a1c0c2_sm.jpeg",
+        "size": "5'7\"",
+        "price": 17500,
+        "location": "Elizabeth, Colorado",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66198"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1927 Steinway & Sons Style XR Duo-Art Reproducing Grand Piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64927_65194_69e7b07921ead_sm.jpeg",
+        "size": "6'5\"",
+        "price": 50000,
+        "location": "Albuquerque, New Mexico",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=65194"
+    },
+    {
+        "brand": "Other",
+        "model": "2002 Beautiful Family Piano!",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64414_64739_69be85366339e_sm.jpeg",
+        "size": "5'",
+        "price": 2500,
+        "location": "Huntersville, North Carolina",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=64739"
+    },
+    {
+        "brand": "Petrof",
+        "model": "1995 Rosewood Petrof 53 inch Grand",
+        "image": "/assets/25e2d2d8/placeholder_sm.jpg",
+        "size": "5'3\"",
+        "price": 15000,
+        "location": "Crozet, Virginia",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=63932"
+    },
+    {
+        "brand": "Mason & Hamlin",
+        "model": "1965 1958 Mason & Hamlin Model A- Owned by concert pianists.",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/61139_62148_68a7700016e59_sm.jpeg",
+        "size": "5'8\"",
+        "price": 6500,
+        "location": "Woodstock, New York",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=62148"
+    },
+    {
+        "brand": "Steinway",
         "model": "1999 Steinway & Sons Model M",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/16209_60945_68f0061583e6a_sm.jpeg",
         "size": "5'7\"",
@@ -148,55 +198,5 @@
         "location": "Portland, Oregon",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=63926"
-    },
-    {
-        "brand": "Other",
-        "model": "2012 Hailun HG198 (6’5”) Professional Grand Piano w/ Player Unit",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64735_65040_6a308ac4c4d31_sm.jpeg",
-        "size": "6'5\"",
-        "price": 10900,
-        "location": "Racine, Wisconsin",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65040"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1986 Steinway & Sons Model M Grand Piano – One Owner | Like New",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/864_65598_6a090a03eb0ae_sm.jpg",
-        "size": "5'7\"",
-        "price": 14995,
-        "location": "lilburn, Georgia",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65598"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1894 Rebuilt 1894 Steinway C 7'5\"",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/2397_66175_6a35b8ed6cf60_sm.jpg",
-        "size": "7'6\"",
-        "price": 30000,
-        "location": "Great Barrington, Massachusetts",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66175"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1911 Vintage pre-WWI Steinway Grand",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65854_66038_6a2c280dd0ef2_sm.jpeg",
-        "size": "6'",
-        "price": 5000,
-        "location": "Great Falls, Virginia",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66038"
-    },
-    {
-        "brand": "Other",
-        "model": "1936 Pristine condition owned by New York Pops Music Director",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65413_65630_6a0bb63f69a29_sm.jpg",
-        "size": "5'1\"",
-        "price": 29500,
-        "location": "New York, New York",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65630"
     }
 ]
