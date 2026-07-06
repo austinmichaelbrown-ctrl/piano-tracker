@@ -1,5 +1,45 @@
 [
     {
+        "brand": "Kawai",
+        "model": "2023 Sale of a 2023 Kawai due to moving abroad",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65348_65929_6a223cf20dedb_sm.jpeg",
+        "size": "5'",
+        "price": 8000,
+        "location": "Los Angeles, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=65929"
+    },
+    {
+        "brand": "Fazioli",
+        "model": "2009 EXPERIENCE THE FAZIOLI F183 GRAND Music Making at Its Finest",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64611_64963_69f0072ed9d50_sm.jpg",
+        "size": "6'",
+        "price": 128800,
+        "location": "Bellevue, Washington",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=64963"
+    },
+    {
+        "brand": "Steinway",
+        "model": "2006 Steinway & Sons Model M Grand Piano – Ebony – Orig. Owner",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63698_64136_6984fc25da89b_sm.jpeg",
+        "size": "5'7\"",
+        "price": 54900,
+        "location": "Philadelphia, Pa",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=64136"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1884 1884 Steinway Grand Model A - Museum Quality",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/52012_54439_6547bc96c7f03_sm.jpg",
+        "size": "6'2\"",
+        "price": 60000,
+        "location": "Berkley, Massachusetts",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=54439"
+    },
+    {
         "brand": "Other",
         "model": "1920 1920 Wheelock Baby Grand. One owner. Fully rebuilt 1990.",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66261_66413_6a496e5562764_sm.jpeg",
@@ -54,7 +94,7 @@
         "model": "2020 Fazioli 9’2” concert grand hard to get",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/62862_63418_6931025ce0809_sm.jpeg",
         "size": "9'2\"",
-        "price": 210000,
+        "price": 197000,
         "location": "Princeton, Texas",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=63418"
@@ -158,45 +198,5 @@
         "location": "Portland, Oregon",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=64928"
-    },
-    {
-        "brand": "Steinway",
-        "model": "2000 Steinway & Sons Model A Grand Piano (6’2”) – Exceptional!",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64622_64924_69cfe1cf7414f_sm.jpeg",
-        "size": "6'2\"",
-        "price": 64900,
-        "location": "San Antonio, Texas",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64924"
-    },
-    {
-        "brand": "Steinway",
-        "model": "2015 Steinway Model B-Steinway Executive’s (ret) Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64616_64921_69cfb0f4287b9_sm.jpg",
-        "size": "6'11\"",
-        "price": 89900,
-        "location": "Little Silver, New Jersey",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64921"
-    },
-    {
-        "brand": "Other",
-        "model": "1998 A Gem Personally Played by Dave Brubeck",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/34738_63735_695b080df1cf1_sm.jpg",
-        "size": "9'",
-        "price": 44000,
-        "location": "Sacramento, California",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=63735"
-    },
-    {
-        "brand": "Chickering",
-        "model": "1939 Beautiful 1939 Chickering & Sons Baby Grand Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63193_63730_6958a1f75349f_sm.jpg",
-        "size": "5'4\"",
-        "price": 2200,
-        "location": "Valley Springs, California",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=63730"
     }
 ]
