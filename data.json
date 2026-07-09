@@ -1,5 +1,65 @@
 [
     {
+        "brand": "Other",
+        "model": "2005 Wyman petite baby grand piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65972_66161_6a3453cea891a_sm.jpg",
+        "size": "4'9\"",
+        "price": 5000,
+        "location": "Los Angeles, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66161"
+    },
+    {
+        "brand": "Other",
+        "model": "2006 LIKE NEW",
+        "image": "/assets/25e2d2d8/placeholder_sm.jpg",
+        "size": "5'",
+        "price": 4995,
+        "location": "Newtown Square, Pennsylvania",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66474"
+    },
+    {
+        "brand": "Other",
+        "model": "1960 On oldie AND a goodie!",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/60658_61626_686daa551ba13_sm.jpg",
+        "size": "5'",
+        "price": 2799,
+        "location": "Brooklyn, New York",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=61626"
+    },
+    {
+        "brand": "Yamaha",
+        "model": "Yamaha G2 Professional Mid-size Grand Piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/61292_62749_68e66856380e3_sm.jpg",
+        "size": "5'7\"",
+        "price": 10999,
+        "location": "Naples, Florida",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=62749"
+    },
+    {
+        "brand": "Knabe",
+        "model": "2006 For Sale: 2006 Knabe WKG-57 Grand Piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/61664_62369_68bf42c0bf9a4_sm.jpg",
+        "size": "5'7\"",
+        "price": 8000,
+        "location": "Delray Beach, Florida",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=62369"
+    },
+    {
+        "brand": "Yamaha",
+        "model": "1991 Yamaha Concert Grand",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/58326_59715_67a6bdf5614a8_sm.jpg",
+        "size": "7'6\"",
+        "price": 21000,
+        "location": "Reno, Nevada",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=59715"
+    },
+    {
         "brand": "Kawai",
         "model": "Howard Made By Kawai, Beautiful Walnut, 5'10\" *WARRANTY*",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/794_66447_6a4d35b69ef90_sm.jpg",
@@ -138,65 +198,5 @@
         "location": "Phoenix, Arizona",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=66439"
-    },
-    {
-        "brand": "Kawai",
-        "model": "1973 Kawai KG-2C with Bench in excellent condition",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66293_66433_6a4c099147084_sm.jpeg",
-        "size": "5'10\"",
-        "price": 5999,
-        "location": "Livermore, California",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66433"
-    },
-    {
-        "brand": "Other",
-        "model": "1968 Bösendorfer Model 200 Ebony Polish",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/54620_66432_6a4c00521c585_sm.jpeg",
-        "size": "6'7\"",
-        "price": 39990,
-        "location": "Asheville, North Carolina",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66432"
-    },
-    {
-        "brand": "Young Chang",
-        "model": "2002 Young Chang Pramberger PG-150 Baby Grand",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_65395_69f8d43c2605d_sm.jpg",
-        "size": "5'",
-        "price": 8495,
-        "location": "Hendersonville, North Carolina",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65395"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1997 1997 Steinway & Sons Model L Satin Ebony",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_61374_68518bb8254d0_sm.jpeg",
-        "size": "5'11\"",
-        "price": 38650,
-        "location": "Hendersonville, North Carolina",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=61374"
-    },
-    {
-        "brand": "Baldwin",
-        "model": "1949 Baldwin Model L Artist Series - Complete Restoration 2016",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_59921_67be414745130_sm.jpg",
-        "size": "6'3\"",
-        "price": 18550,
-        "location": "Hendersonville, North Carolina",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=59921"
-    },
-    {
-        "brand": "Chickering",
-        "model": "1983 Chickering Baby Grand",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_58511_6856d00ade034_sm.jpeg",
-        "size": "5'7\"",
-        "price": 7990,
-        "location": "Hendersonville, North Carolina",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=58511"
     }
 ]
