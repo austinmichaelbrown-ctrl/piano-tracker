@@ -1,10 +1,90 @@
 [
     {
+        "brand": "Mason & Hamlin",
+        "model": "Resonant American Magic: Classic Mason & Hamlin",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/864_66723_6a5ffbc03f259_sm.jpeg",
+        "size": "5'8\"",
+        "price": 9995,
+        "location": "lilburn, Georgia",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66723"
+    },
+    {
+        "brand": "Mason & Hamlin",
+        "model": "Mason & Hamlin 5'8 Grand Piano model A - American Excellence",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/864_61763_687e7af75ff8a_sm.jpg",
+        "size": "5'8\"",
+        "price": 9995,
+        "location": "lilburn, Georgia",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=61763"
+    },
+    {
+        "brand": "Mason & Hamlin",
+        "model": "1992 Mason & Hamlin Model BB",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_66494_6a4fff6588295_sm.jpeg",
+        "size": "7'",
+        "price": 39995,
+        "location": "Hendersonville, North Carolina",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66494"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1918 1918 Steinway & Sons Model M",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/28156_66198_6a38065a1c0c2_sm.jpeg",
+        "size": "5'7\"",
+        "price": 17500,
+        "location": "Elizabeth, Colorado",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66198"
+    },
+    {
+        "brand": "Other",
+        "model": "2002 Beautiful Family Piano!",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64414_64739_69be85366339e_sm.jpeg",
+        "size": "5'",
+        "price": 2500,
+        "location": "Huntersville, North Carolina",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=64739"
+    },
+    {
+        "brand": "Petrof",
+        "model": "1995 Rosewood Petrof 53 inch Grand",
+        "image": "/assets/25e2d2d8/placeholder_sm.jpg",
+        "size": "5'3\"",
+        "price": 15000,
+        "location": "Crozet, Virginia",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=63932"
+    },
+    {
+        "brand": "Mason & Hamlin",
+        "model": "1965 1958 Mason & Hamlin Model A- Owned by concert pianists.",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/61139_62148_68a7700016e59_sm.jpeg",
+        "size": "5'8\"",
+        "price": 6500,
+        "location": "Woodstock, New York",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=62148"
+    },
+    {
+        "brand": "Other",
+        "model": "1955 Beautiful Baby Grand",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66015_66712_6a5ef140a7ecf_sm.jpeg",
+        "size": "5'1\"",
+        "price": 4000,
+        "location": "Pleasanton, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66712"
+    },
+    {
         "brand": "Steinway",
         "model": "2018 2018 Essex Baby Grand by Steinway & Sons (EGP-155)",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66559_66706_6a5e9a4a1fe63_sm.jpg",
         "size": "5'1\"",
-        "price": 9500,
+        "price": 8000,
         "location": "Valley Village, California",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=66706"
@@ -118,85 +198,5 @@
         "location": "Boulder, Colorado",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=64329"
-    },
-    {
-        "brand": "Other",
-        "model": "Seiler ED-186 Nickel Excellent Condition",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/57888_66680_6a5d7824927a5_sm.jpg",
-        "size": "6'",
-        "price": 19999,
-        "location": "Killen, Alabama",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66680"
-    },
-    {
-        "brand": "Steinway",
-        "model": "2024 2024 Steinway B 6'10\" Ebony - Save $46,900 vs New",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/843_66678_6a5d7480bcf10_sm.jpg",
-        "size": "6'10\"",
-        "price": 100000,
-        "location": "Pinebrook, New Jersey",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66678"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1911 1911 Steinway & Sons Grand Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65854_66038_6a2c280dd0ef2_sm.jpeg",
-        "size": "6'",
-        "price": 4500,
-        "location": "Great Falls, Virginia",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66038"
-    },
-    {
-        "brand": "Other",
-        "model": "1936 Pristine condition owned by New York Pops Music Director",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65413_65630_6a0bb63f69a29_sm.jpg",
-        "size": "5'1\"",
-        "price": 29500,
-        "location": "New York, New York",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65630"
-    },
-    {
-        "brand": "Knabe",
-        "model": "1921 Refurbished Knabe Baby Grand",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64390_64703_69bc16c28c876_sm.jpeg",
-        "size": "5'7\"",
-        "price": 6500,
-        "location": "Phoenix, Oregon",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64703"
-    },
-    {
-        "brand": "Other",
-        "model": "1890 1890 Henry F. Miller Grand: Beautiful Instrument Motivated",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/55932_57640_68b45d9f0d59b_sm.jpg",
-        "size": "6'10\"",
-        "price": 2500,
-        "location": "Derwood, Maryland",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=57640"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1927 Steinway Baby Grand Model M - Reduced Price",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63286_64310_6997769f1b789_sm.jpeg",
-        "size": "5'7\"",
-        "price": 12000,
-        "location": "Boynton Beach, Florida",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64310"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1891 Rebuilt Steinway grand",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63430_63901_696e5954c1f80_sm.jpeg",
-        "size": "6'2\"",
-        "price": 58800,
-        "location": "Boulder, Colorado",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=63901"
     }
 ]
