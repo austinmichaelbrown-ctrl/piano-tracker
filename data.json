@@ -1,6 +1,56 @@
 [
     {
         "brand": "Kawai",
+        "model": "1988 Stunning High Gloss Kawai Grand Piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66577_66828_6a6698bceaa8c_sm.jpeg",
+        "size": "5'10\"",
+        "price": 8000,
+        "location": "Long Beach, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66828"
+    },
+    {
+        "brand": "Yamaha",
+        "model": "2004 Yamaha C7 Grand Piano (single owner)",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66676_66825_6a668034e969d_sm.jpeg",
+        "size": "7'6\"",
+        "price": 19500,
+        "location": "Simi Valley, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66825"
+    },
+    {
+        "brand": "Other",
+        "model": "1929 Original Ivory Keys. Must Sell. Moving",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/48823_66824_6a667436ad008_sm.jpeg",
+        "size": "5'7\"",
+        "price": 14000,
+        "location": "New York, New York",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66824"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1991 Steinway & Sons Model B",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65549_65754_6a1597e34db91_sm.jpeg",
+        "size": "6'11\"",
+        "price": 55000,
+        "location": "Redondo Beach, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=65754"
+    },
+    {
+        "brand": "Schimmel",
+        "model": "1986 Rare Golden Era Schimmel 6’9” Grand Piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/61289_63992_6976bb33e08aa_sm.jpeg",
+        "size": "6'9\"",
+        "price": 18800,
+        "location": "Oakland, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=63992"
+    },
+    {
+        "brand": "Kawai",
         "model": "1992 Kawai GE-1 Baby Grand Piano",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66662_66815_6a65505b4346c_sm.jpeg",
         "size": "5'1\"",
@@ -48,16 +98,6 @@
         "location": "Pinebrook, New Jersey",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=66801"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1898 The Clemson Steinway. 1898 One-of-a-kind Art Case. Model A",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/60036_65256_69ebfa4784324_sm.jpeg",
-        "size": "6'2\"",
-        "price": 250000,
-        "location": "Soquel, California",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65256"
     },
     {
         "brand": "Baldwin",
@@ -158,45 +198,5 @@
         "location": "Hendersonville, North Carolina",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=63859"
-    },
-    {
-        "brand": "Baldwin",
-        "model": "1955 Baldwin Model R Ebony Satin Artist Series Grand",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_65396_69f8d9408aeb6_sm.jpeg",
-        "size": "5'8\"",
-        "price": 11995,
-        "location": "Hendersonville, North Carolina",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65396"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1916 Golden-Era Resonance: Steinway Model O",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/864_66791_6a63c939a175b_sm.jpg",
-        "size": "5'11\"",
-        "price": 6995,
-        "location": "lilburn, Georgia",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66791"
-    },
-    {
-        "brand": "Bechstein",
-        "model": "1929 1929 C. Bechstein Model C 7'4\" High Gloss Ebony Grand Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/843_66790_6a63c4d2cd957_sm.jpg",
-        "size": "7'4\"",
-        "price": 89000,
-        "location": "Pinebrook, New Jersey",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66790"
-    },
-    {
-        "brand": "Bechstein",
-        "model": "1925 1925 C. Bechstein Model B 6'8\" High Gloss Ebony",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/843_66788_6a63bf81910fe_sm.jpg",
-        "size": "6'8\"",
-        "price": 67800,
-        "location": "Pinebrook, New Jersey",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66788"
     }
 ]
