@@ -1,5 +1,65 @@
 [
     {
+        "brand": "Steinway",
+        "model": "1995 Steinway & Sons Model L",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66853_66984_6a7269eea7b50_sm.jpeg",
+        "size": "5'11\"",
+        "price": 39900,
+        "location": "Edina, Minnesota",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66984"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1914 Steinway Model A-III (1914)-Ebony Satin-$18K appraisal",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66843_66980_6a7260f56c323_sm.jpg",
+        "size": "6'4\"",
+        "price": 17500,
+        "location": "Atherton, CA",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66980"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1997 Steinway B  (1997) MINT!",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/27381_66975_6a722ec115aaf_sm.jpg",
+        "size": "6'11\"",
+        "price": 45000,
+        "location": "Chicago, IL",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66975"
+    },
+    {
+        "brand": "Other",
+        "model": "1920 1920 Wheelock Baby Grand. One owner. Fully rebuilt 1990.",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66261_66413_6a496e5562764_sm.jpeg",
+        "size": "4'7\"",
+        "price": 450,
+        "location": "Pingree Grove, Illinois",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66413"
+    },
+    {
+        "brand": "Baldwin",
+        "model": "1983 1983 Baldwin Model R Grand Piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65145_65403_69f90d70aa850_sm.jpg",
+        "size": "5'8\"",
+        "price": 5500,
+        "location": "Menlo Park, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=65403"
+    },
+    {
+        "brand": "Yamaha",
+        "model": "1967 Yamaha G1 Excellent condition",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64636_64939_69d13d66d23b6_sm.jpeg",
+        "size": "5'3\"",
+        "price": 3500,
+        "location": "Katonah, New York",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=64939"
+    },
+    {
         "brand": "Kawai",
         "model": "2020 Beautiful Kawai Baby Grand GX1-BL",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63107_63653_6a713ab14f768_sm.jpeg",
@@ -71,7 +131,7 @@
     },
     {
         "brand": "Steinway",
-        "model": "2000 Steinway & Sons Model A Grand Piano (6’2”) – Exceptional!",
+        "model": "2011 Steinway & Sons Model A Grand Piano (6’2”) – Exceptional!",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64622_64924_69cfe1cf7414f_sm.jpeg",
         "size": "6'2\"",
         "price": 64900,
@@ -138,65 +198,5 @@
         "location": "Middlebury, Indiana",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=62543"
-    },
-    {
-        "brand": "Other",
-        "model": "2006 Gorgeous black baby grand and player piano!",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/57141_58714_67269d11860da_sm.jpeg",
-        "size": "4'11\"",
-        "price": 5000,
-        "location": "Wilmette, Illinois",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=58714"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1889 STEINWAY GRAND FIT FOR A KING!",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/822_55834_65e36e9d7f65b_sm.jpg",
-        "size": "6'",
-        "price": 750000,
-        "location": "Manhattan, Kansas",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=55834"
-    },
-    {
-        "brand": "Kawai",
-        "model": "2007 Kawai RX-2 Grand Piano - Original Owner - Like New Condition",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/61981_62643_68dadae856260_sm.jpeg",
-        "size": "5'10\"",
-        "price": 14000,
-        "location": "Erie, Colorado",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=62643"
-    },
-    {
-        "brand": "Kawai",
-        "model": "2008 Kawai GE-30 Grand Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66799_66929_6a6ea0676dd72_sm.jpeg",
-        "size": "5'5\"",
-        "price": 9900,
-        "location": "Oswego, Illinois",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66929"
-    },
-    {
-        "brand": "Kawai",
-        "model": "2020 Kawai GL10 Baby Grand - Polished Ebony with Nickel",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66794_66925_6a6e735108315_sm.jpeg",
-        "size": "4'11\"",
-        "price": 6500,
-        "location": "Los Angeles, California",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66925"
-    },
-    {
-        "brand": "Other",
-        "model": "1990 Play Yourself or Let It Play Itself-Great for Parties!",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66764_66895_6a6be892cf9d7_sm.jpeg",
-        "size": "5'7\"",
-        "price": 10000,
-        "location": "FORT WORTH, Texas",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66895"
     }
 ]
