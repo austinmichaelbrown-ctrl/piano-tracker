@@ -1,5 +1,65 @@
 [
     {
+        "brand": "Yamaha",
+        "model": "2008 Yamaha DC2M4 Disklavier Mark IV Grand Piano — Played & Signe",
+        "image": "/assets/25e2d2d8/placeholder_sm.jpg",
+        "size": "5'8\"",
+        "price": 44500,
+        "location": "Victoria, British Columbia",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67054"
+    },
+    {
+        "brand": "Kawai",
+        "model": "2014 Shigeru Kawai SK-3 Pyramid Mahogany & Ebony Polish",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_66904_6a6ceae178de2_sm.jpeg",
+        "size": "6'2\"",
+        "price": 59999,
+        "location": "Hendersonville, North Carolina",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66904"
+    },
+    {
+        "brand": "Other",
+        "model": "2002 Georgeous Grand Piano for sale. Less than half its value!",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66928_67052_6a7755567ca39_sm.jpg",
+        "size": "6'2\"",
+        "price": 12500,
+        "location": "McKinney, Texas",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67052"
+    },
+    {
+        "brand": "Other",
+        "model": "1960 On oldie AND a goodie!",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/60658_61626_686daa551ba13_sm.jpg",
+        "size": "5'",
+        "price": 2799,
+        "location": "Brooklyn, New York",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=61626"
+    },
+    {
+        "brand": "Yamaha",
+        "model": "Yamaha G2 Professional Mid-size Grand Piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/61292_62749_68e66856380e3_sm.jpg",
+        "size": "5'7\"",
+        "price": 10999,
+        "location": "Naples, Florida",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=62749"
+    },
+    {
+        "brand": "Yamaha",
+        "model": "1991 Yamaha Concert Grand",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/58326_59715_67a6bdf5614a8_sm.jpg",
+        "size": "7'6\"",
+        "price": 21000,
+        "location": "Reno, Nevada",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=59715"
+    },
+    {
         "brand": "Kimball",
         "model": "1906 Restored Hand Carved 1906 Kimball Baby Grand",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66921_67043_6a766c659cab1_sm.jpg",
@@ -138,65 +198,5 @@
         "location": "Houston, Texas",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=64995"
-    },
-    {
-        "brand": "Yamaha",
-        "model": "1989 Yamaha C5 Grand Piano (1989) with Piano Disc Player",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64495_64910_69cd676372696_sm.jpg",
-        "size": "6'7\"",
-        "price": 19800,
-        "location": "Anderson, South Carolina",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64910"
-    },
-    {
-        "brand": "Knabe",
-        "model": "1929 Wm. & Co.  Knabe Baby Grand Piano 5'1\"",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63734_64164_6987a16ce879d_sm.jpeg",
-        "size": "5'1\"",
-        "price": 4995,
-        "location": "Westlake Village, California",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64164"
-    },
-    {
-        "brand": "Bosendorfer",
-        "model": "1983 1983 Bosendorfer 200 in Toronto",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63682_64165_6987a5df546b7_sm.jpeg",
-        "size": "6'4\"",
-        "price": 49500,
-        "location": "Toronto, Ontario",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64165"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1910s Steinway and Sons Model A-3",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63726_64160_698746a73d2da_sm.jpeg",
-        "size": "6'4\"",
-        "price": 55000,
-        "location": "Mason, Ohio",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64160"
-    },
-    {
-        "brand": "Other",
-        "model": "5'0 Brambach Piano for Sale",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/62905_63464_6935e04d26099_sm.jpeg",
-        "size": "5'",
-        "price": 1000,
-        "location": "Arlington, Virginia",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=63464"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1991 Barely Played Steinway Baby Grand Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66897_67024_6a74f8c3434ea_sm.jpeg",
-        "size": "5'7\"",
-        "price": 26000,
-        "location": "PENNINGTON, New Jersey",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67024"
     }
 ]
