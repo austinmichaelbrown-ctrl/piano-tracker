@@ -1,5 +1,75 @@
 [
     {
+        "brand": "Yamaha",
+        "model": "1969 Yamaha C7 in excellent condition",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67309_67399_6a8f586574f32_sm.jpeg",
+        "size": "7'6\"",
+        "price": 15000,
+        "location": "Gladwyne, Pennsylvania",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67399"
+    },
+    {
+        "brand": "Other",
+        "model": "2002 Beautiful Everett Baby Grand Piano + Bench",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67275_67395_6a8f1b8e0323c_sm.jpg",
+        "size": "4'11\"",
+        "price": 999,
+        "location": "Miami, Florida",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67395"
+    },
+    {
+        "brand": "Other",
+        "model": "1973 Beautiful but needs work.",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67299_67389_6a8f0d6c430ab_sm.jpeg",
+        "size": "5'7\"",
+        "price": 15000,
+        "location": "Rochester, New York",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67389"
+    },
+    {
+        "brand": "Kawai",
+        "model": "1988 Stunning High Gloss Kawai Grand Piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66577_66828_6a6698bceaa8c_sm.jpeg",
+        "size": "5'10\"",
+        "price": 8000,
+        "location": "Long Beach, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66828"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1991 Steinway & Sons Model B",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65549_65754_6a1597e34db91_sm.jpeg",
+        "size": "6'11\"",
+        "price": 55000,
+        "location": "Redondo Beach, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=65754"
+    },
+    {
+        "brand": "Schimmel",
+        "model": "1986 Rare Golden Era Schimmel 6’9” Grand Piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/61289_63992_6976bb33e08aa_sm.jpeg",
+        "size": "6'9\"",
+        "price": 18800,
+        "location": "Oakland, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=63992"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1999 Steinway Model B – Aspen 50th Anniversary",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67294_67388_6a8e4ef08fbb2_sm.jpeg",
+        "size": "6'11\"",
+        "price": 69800,
+        "location": "Bellevue, Washington",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67388"
+    },
+    {
         "brand": "Steinway",
         "model": "1994 1994 HAMBURG STEINWAY B GRAND PIANO MINT LIKE NEW!",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/19080_63061_69077fbe074f2_sm.jpeg",
@@ -128,75 +198,5 @@
         "location": "Asheville, North Carolina",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=67349"
-    },
-    {
-        "brand": "Other",
-        "model": "2010 Ritmüller GP-142R Petite Baby Grand",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/54620_67163_6a7f2624bc653_sm.jpeg",
-        "size": "4'7\"",
-        "price": 9995,
-        "location": "Asheville, North Carolina",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67163"
-    },
-    {
-        "brand": "Yamaha",
-        "model": "2006 2006 Yamaha GC1 Baby Grand - Single Owner GC-1",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/58282_59696_67a4f0670a4d7_sm.jpg",
-        "size": "5'3\"",
-        "price": 8000,
-        "location": "Nashville, Tennessee",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=59696"
-    },
-    {
-        "brand": "Other",
-        "model": "Kranich & Bach baby grand",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65432_65727_6a1a125fc7ca7_sm.jpg",
-        "size": "5'5\"",
-        "price": 100,
-        "location": "Columbus, Ohio",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65727"
-    },
-    {
-        "brand": "Chickering",
-        "model": "1905 1905 Chickering and Sons Quarter Grand-121 scale",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/65511_65717_6a130fc159946_sm.jpeg",
-        "size": "5'7\"",
-        "price": 1500,
-        "location": "Rochester, Minnesota",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65717"
-    },
-    {
-        "brand": "Schimmel",
-        "model": "2021 Schimmel C169 Grand Piano - Made in Germany",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64988_65255_69eba0512a981_sm.jpg",
-        "size": "5'7\"",
-        "price": 39999,
-        "location": "Ridgefield, Washington",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65255"
-    },
-    {
-        "brand": "Knabe",
-        "model": "1895 Gorgeous Wm Knabe Victorian Baby  Grand Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66947_67329_6a8b065894503_sm.jpeg",
-        "size": "5'5\"",
-        "price": 2900,
-        "location": "Morgantown, West Virginia",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67329"
-    },
-    {
-        "brand": "Other",
-        "model": "1989 Louis XV",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66624_66775_6a628593b7fbc_sm.jpeg",
-        "size": "5'7\"",
-        "price": 24000,
-        "location": "Scottsdale, Arizona",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66775"
     }
 ]
