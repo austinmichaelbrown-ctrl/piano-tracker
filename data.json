@@ -1,5 +1,115 @@
 [
     {
+        "brand": "Steinway",
+        "model": "1977 1977 Steinway & Sons Model B Grand Piano – American Walnut",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67480_67572_6a9b4c3970a2c_sm.jpeg",
+        "size": "6'11\"",
+        "price": 35000,
+        "location": "Mill Valley, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67572"
+    },
+    {
+        "brand": "Knabe",
+        "model": "2024 Knabe WG-54 5' 4\" Baby Grand Piano - Polished Ebony",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67473_67566_6a9b235909627_sm.jpg",
+        "size": "5'4\"",
+        "price": 10500,
+        "location": "Pembroke Pines, Florida",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67566"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1967 Fully Restored Steinway & Sons Model L",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_67520_6a9859274010a_sm.jpeg",
+        "size": "5'11\"",
+        "price": 69940,
+        "location": "Hendersonville, North Carolina",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67520"
+    },
+    {
+        "brand": "Baldwin",
+        "model": "1972 Restored Baldwin R with Warranty",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/8144_67564_6a9afe7922471_sm.jpg",
+        "size": "5'8\"",
+        "price": 13500,
+        "location": "Mahwah, New Jersey",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67564"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1881 Timeless Excellence: Steinway & Sons Model A Grand Piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/864_67563_6a9afe526b1a3_sm.jpeg",
+        "size": "6'2\"",
+        "price": 5995,
+        "location": "lilburn, Georgia",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67563"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1944 Steinway M - Completely Rebuilt with 5 year warranty!",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/8144_67562_6a9afa73c4f12_sm.jpg",
+        "size": "5'7\"",
+        "price": 49000,
+        "location": "Mahwah, New Jersey",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67562"
+    },
+    {
+        "brand": "Kawai",
+        "model": "2014 Shigeru Kawai SK-3 Pyramid Mahogany & Ebony Polish",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_66904_6a6ceae178de2_sm.jpeg",
+        "size": "6'2\"",
+        "price": 59999,
+        "location": "Hendersonville, North Carolina",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66904"
+    },
+    {
+        "brand": "Mason & Hamlin",
+        "model": "Mason & Hamlin MHA-212 Semi-Concert Grand",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_63494_69387c65bd447_sm.jpeg",
+        "size": "7'",
+        "price": 56408,
+        "location": "Hendersonville, North Carolina",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=63494"
+    },
+    {
+        "brand": "Kawai",
+        "model": "1996 Artist Grade Kawai RX-1 - Completely Restored with Warranty",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/8144_67560_6a9ad3cc62dd5_sm.jpg",
+        "size": "5'5\"",
+        "price": 15300,
+        "location": "Mahwah, New Jersey",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67560"
+    },
+    {
+        "brand": "Yamaha",
+        "model": "2006 Yamaha C1- Like New with 3 Year Warranty",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/8144_67559_6a9ac811e6e2f_sm.jpg",
+        "size": "5'3\"",
+        "price": 14500,
+        "location": "Mahwah, New Jersey",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67559"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1914 1914 Steinway Model A-III-$10K Price Cut (closing Sept 2026)",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66843_66980_6a7260f56c323_sm.jpg",
+        "size": "6'4\"",
+        "price": 7499,
+        "location": "Atherton, CA",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66980"
+    },
+    {
         "brand": "Other",
         "model": "1995 GERMAN MADE SEILER GRAND MODEL 206 WITH PLAYER SYSTEM",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/45753_67549_6a99e77d8937c_sm.jpg",
@@ -88,115 +198,5 @@
         "location": "San Antonio, Texas",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=64924"
-    },
-    {
-        "brand": "Other",
-        "model": "1998 A Gem Personally Played by Dave Brubeck",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/34738_63735_695b080df1cf1_sm.jpg",
-        "size": "9'",
-        "price": 44000,
-        "location": "Sacramento, California",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=63735"
-    },
-    {
-        "brand": "Chickering",
-        "model": "1939 Beautiful 1939 Chickering & Sons Baby Grand Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63193_63730_6958a1f75349f_sm.jpg",
-        "size": "5'4\"",
-        "price": 2200,
-        "location": "Valley Springs, California",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=63730"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1967 1967 Steinway L 5'11\" - Fully Restored - $68,000",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/843_67528_6a98bb3161ffb_sm.jpg",
-        "size": "5'10\"",
-        "price": 68000,
-        "location": "Pinebrook, New Jersey",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67528"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1927 1927 Steinway M 5'7\" Walnut - Fully Restored",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/843_67527_6a98ae93042e3_sm.jpg",
-        "size": "5'7\"",
-        "price": 75000,
-        "location": "Pinebrook, New Jersey",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67527"
-    },
-    {
-        "brand": "Yamaha",
-        "model": "1984 1984 Yamaha C7 7'6\" - AS-IS Restoration Project",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/843_67525_6a98a89fbe98b_sm.jpg",
-        "size": "7'6\"",
-        "price": 9900,
-        "location": "Pinebrook, New Jersey",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67525"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1977 1977 Steinway Model L – Original Satin Ebony – Restrung",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67438_67524_6a9888292473b_sm.jpg",
-        "size": "5'10\"",
-        "price": 30000,
-        "location": "Kailua Kona, Hawaii",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67524"
-    },
-    {
-        "brand": "Yamaha",
-        "model": "1992 Yamaha G2 Satin Black w/Bench",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67439_67523_6a9885b408125_sm.jpg",
-        "size": "5'8\"",
-        "price": 7000,
-        "location": "Midlothian, Virginia",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67523"
-    },
-    {
-        "brand": "Yamaha",
-        "model": "NA Yamaha G5 6'7\" Grand Piano – Rare High-Gloss Red – Excellent",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67436_67522_6a985ffb24dff_sm.jpg",
-        "size": "6'7\"",
-        "price": 10000,
-        "location": "Panama City, Florida",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67522"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1967 Fully Restored Steinway & Sons Model L",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_67520_6a9859274010a_sm.jpeg",
-        "size": "5'11\"",
-        "price": 69940,
-        "location": "Hendersonville, North Carolina",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67520"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1941 Fully Restored Steinway & Sons Model S",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_64309_699761cc46857_sm.jpeg",
-        "size": "5'1\"",
-        "price": 51500,
-        "location": "Hendersonville, North Carolina",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64309"
-    },
-    {
-        "brand": "Yamaha",
-        "model": "2000 2000 Yamaha C1 5'3\" Polished Ebony Grand",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67414_67519_6a9854a545d1b_sm.jpg",
-        "size": "5'3\"",
-        "price": 10995,
-        "location": "Burns, Tennessee",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67519"
     }
 ]
