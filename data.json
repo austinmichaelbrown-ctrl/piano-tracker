@@ -1,5 +1,85 @@
 [
     {
+        "brand": "Mason & Hamlin",
+        "model": "1932 ***1932 Restored Mason & Hamlin BB For Sale***",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/48761_58178_69d3b9d1bcf95_sm.jpeg",
+        "size": "7'",
+        "price": 32000,
+        "location": "Pennsburg, Pennsylvania",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=58178"
+    },
+    {
+        "brand": "Kawai",
+        "model": "1999 Kawai RX-1 baby grand polished mahogany with player system",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67765_67882_6ab19ff5ea709_sm.jpeg",
+        "size": "5'5\"",
+        "price": 13995,
+        "location": "Grand Rapids, Michigan",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67882"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1898 1898 Steinway B",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64995_65267_69ebe72c64ddf_sm.jpg",
+        "size": "6'11\"",
+        "price": 28000,
+        "location": "Gaston, Oregon",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=65267"
+    },
+    {
+        "brand": "Yamaha",
+        "model": "2025 2025 Yamaha DCF6ENPRO",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67023_67226_6a829f52eee88_sm.jpg",
+        "size": "7'",
+        "price": 135000,
+        "location": "Sunny Isles Beach, Florida",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67226"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1918 1918 Steinway & Sons Model M",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/28156_66198_6a38065a1c0c2_sm.jpeg",
+        "size": "5'7\"",
+        "price": 17500,
+        "location": "Elizabeth, Colorado",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66198"
+    },
+    {
+        "brand": "Other",
+        "model": "2002 Beautiful Family Piano!",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64414_64739_69be85366339e_sm.jpeg",
+        "size": "5'",
+        "price": 2500,
+        "location": "Huntersville, North Carolina",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=64739"
+    },
+    {
+        "brand": "Petrof",
+        "model": "1995 Rosewood Petrof 53 inch Grand",
+        "image": "/assets/25e2d2d8/placeholder_sm.jpg",
+        "size": "5'3\"",
+        "price": 15000,
+        "location": "Crozet, Virginia",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=63932"
+    },
+    {
+        "brand": "Mason & Hamlin",
+        "model": "1965 1958 Mason & Hamlin Model A- Owned by concert pianists.",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/61139_62148_68a7700016e59_sm.jpeg",
+        "size": "5'8\"",
+        "price": 5500,
+        "location": "Woodstock, New York",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=62148"
+    },
+    {
         "brand": "Steinway",
         "model": "1958 1958 Steinway & Sons Model M 5'7\" Grand Piano – Mahogany – E",
         "image": "/assets/25e2d2d8/placeholder_sm.jpg",
@@ -118,85 +198,5 @@
         "location": "Rockledge, Florida",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=65650"
-    },
-    {
-        "brand": "Yamaha",
-        "model": "2004 Yamaha S6 - Single Owner - Excellent Condition",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64407_64730_69bdc06870456_sm.jpeg",
-        "size": "6'11\"",
-        "price": 35000,
-        "location": "Miami, Florida",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64730"
-    },
-    {
-        "brand": "Young Chang",
-        "model": "2004 Young Chang Platinum Edition JP-175RS Grand Piano (5'9\")",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63923_64329_6998ee98093a5_sm.jpeg",
-        "size": "5'9\"",
-        "price": 6900,
-        "location": "Boulder, Colorado",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64329"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1969 1969 Steinway & Sons Model M 5'7\" Grand – Pristine One-Owner",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/66808_67062_6a7814c818e9b_sm.jpg",
-        "size": "5'7\"",
-        "price": 11800,
-        "location": "Tampa, Florida",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67062"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1953 Enduring Masterpiece: Steinway & Sons Model L Grand Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/864_67845_6aaf172e98b9e_sm.jpg",
-        "size": "5'11\"",
-        "price": 11995,
-        "location": "lilburn, Georgia",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67845"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1896 Steinway Concert Grand Model C, Art Case, Rebuilt 2026",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/794_67843_6aaf0ba2e15c0_sm.jpg",
-        "size": "7'4\"",
-        "price": 85000,
-        "location": "Port Jefferson, New York",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67843"
-    },
-    {
-        "brand": "Other",
-        "model": "1927 1927 madon hamlin",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67726_67841_6aaefa6fa4972_sm.jpg",
-        "size": "5'2\"",
-        "price": 5000,
-        "location": "New Palestine, Indiana",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67841"
-    },
-    {
-        "brand": "Mason & Hamlin",
-        "model": "2018 Mason & Hamlin Model BB w/PianoDisc",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_65965_6a271d98308d7_sm.jpeg",
-        "size": "7'",
-        "price": 64410,
-        "location": "Hendersonville, North Carolina",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65965"
-    },
-    {
-        "brand": "Kawai",
-        "model": "2014 Shigeru Kawai SK-3 Pyramid Mahogany & Ebony Polish",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/11600_66904_6a6ceae178de2_sm.jpeg",
-        "size": "6'2\"",
-        "price": 59999,
-        "location": "Hendersonville, North Carolina",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66904"
     }
 ]
