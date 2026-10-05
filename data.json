@@ -1,5 +1,25 @@
 [
     {
+        "brand": "Baldwin",
+        "model": "Baldwin grand, model 226 HLC",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67975_68131_6ac2475412cf5_sm.jpeg",
+        "size": "5'10\"",
+        "price": 9500,
+        "location": "West Palm Beach, Florida",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=68131"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1977 1977 Steinway & Sons Model B Grand Piano – American Walnut",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67480_67572_6a9b4c3970a2c_sm.jpeg",
+        "size": "6'11\"",
+        "price": 30000,
+        "location": "Mill Valley, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67572"
+    },
+    {
         "brand": "Steinway",
         "model": "2001 Beautiful **2001 Steinway & Sons Model B 6’11” grand piano**",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67969_68126_6ac1838a2a416_sm.jpeg",
@@ -28,16 +48,6 @@
         "location": "Oakland, California",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=67548"
-    },
-    {
-        "brand": "Steinway",
-        "model": "2008 2008 Steinway & Sons Model S Baby Grand Piano – 5’1” Satin E",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67451_67536_6a9984f61f77e_sm.jpeg",
-        "size": "5'1\"",
-        "price": 25000,
-        "location": "Rockaway Park, New York",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=67536"
     },
     {
         "brand": "Steinway",
@@ -188,15 +198,5 @@
         "location": "Wilmette, Illinois",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=58714"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1889 STEINWAY GRAND FIT FOR A KING!",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/822_55834_65e36e9d7f65b_sm.jpg",
-        "size": "6'",
-        "price": 750000,
-        "location": "Manhattan, Kansas",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=55834"
     }
 ]
