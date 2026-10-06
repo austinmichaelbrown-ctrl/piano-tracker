@@ -1,5 +1,55 @@
 [
     {
+        "brand": "Steinway",
+        "model": "2024 New in 2025 STEINWAY & SONS Model D Concert Grand Piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/28778_68141_6ac3c5d786c4e_sm.jpg",
+        "size": "8'11\"",
+        "price": 133950,
+        "location": "Monrovia, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=68141"
+    },
+    {
+        "brand": "Knabe",
+        "model": "1885 Timeless Elegance: Fully Restored 1885 Knabe 6'1\" Grand",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67187_67298_6a889f0ca0a39_sm.jpeg",
+        "size": "6'1\"",
+        "price": 30000,
+        "location": "Bay City, Michigan",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67298"
+    },
+    {
+        "brand": "Yamaha",
+        "model": "2024 Yamaha C7x grand piano",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/60129_61229_6847010144bc6_sm.jpg",
+        "size": "7'6\"",
+        "price": 42000,
+        "location": "santa rosa, California",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=61229"
+    },
+    {
+        "brand": "Fazioli",
+        "model": "2009 EXPERIENCE THE FAZIOLI F183 GRAND Music Making at Its Finest",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64611_64963_69f0072ed9d50_sm.jpg",
+        "size": "6'",
+        "price": 128800,
+        "location": "Bellevue, Washington",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=64963"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1884 1884 Steinway Grand Model A - PRICE DROP!",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/52012_54439_6547bc96c7f03_sm.jpg",
+        "size": "6'2\"",
+        "price": 50000,
+        "location": "Berkley, Massachusetts",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=54439"
+    },
+    {
         "brand": "Baldwin",
         "model": "Baldwin grand, model 226 HLC",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67975_68131_6ac2475412cf5_sm.jpeg",
@@ -148,55 +198,5 @@
         "location": "Pickerington, Ohio",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=63827"
-    },
-    {
-        "brand": "Baldwin",
-        "model": "1985 Baldwin 9’ Concert Grand",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/45919_66605_6a592ac6e9466_sm.jpeg",
-        "size": "9'",
-        "price": 35000,
-        "location": "Las vegas, Nevada",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66605"
-    },
-    {
-        "brand": "Yamaha",
-        "model": "1971 Yamaha C7 with Real Ivory Keytops",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64013_66381_6a45a4424419d_sm.jpg",
-        "size": "7'4\"",
-        "price": 19500,
-        "location": "San Rafael, California",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=66381"
-    },
-    {
-        "brand": "Yamaha",
-        "model": "1986 1986 Yamaha CFIII Concert Grand – Pristine w/ Warranty",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/60314_61368_685065bea7f8f_sm.jpeg",
-        "size": "9'",
-        "price": 39995,
-        "location": "Falls Church, Virginia",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=61368"
-    },
-    {
-        "brand": "Other",
-        "model": "1929 NEW *IMPROVED* PRICE - 1929 Schiller Baby Grand Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/61858_62543_69079687ca5ad_sm.jpg",
-        "size": "5'6\"",
-        "price": 6000,
-        "location": "Middlebury, Indiana",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=62543"
-    },
-    {
-        "brand": "Other",
-        "model": "2006 Gorgeous black baby grand and player piano!",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/57141_58714_67269d11860da_sm.jpeg",
-        "size": "4'11\"",
-        "price": 5000,
-        "location": "Wilmette, Illinois",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=58714"
     }
 ]
