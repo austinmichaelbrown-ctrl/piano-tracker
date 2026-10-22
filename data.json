@@ -1,11 +1,71 @@
 [
     {
+        "brand": "Steinway",
+        "model": "1898 1898 Steinway B",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64995_65267_69ebe72c64ddf_sm.jpg",
+        "size": "6'11\"",
+        "price": 28000,
+        "location": "Gaston, Oregon",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=65267"
+    },
+    {
+        "brand": "Yamaha",
+        "model": "2025 2025 Yamaha DCF6ENPRO",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/67023_67226_6a829f52eee88_sm.jpg",
+        "size": "7'",
+        "price": 135000,
+        "location": "Sunny Isles Beach, Florida",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=67226"
+    },
+    {
+        "brand": "Steinway",
+        "model": "1918 1918 Steinway & Sons Model M",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/28156_66198_6a38065a1c0c2_sm.jpeg",
+        "size": "5'7\"",
+        "price": 17500,
+        "location": "Elizabeth, Colorado",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=66198"
+    },
+    {
+        "brand": "Other",
+        "model": "2002 Beautiful Family Piano!",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64414_64739_69be85366339e_sm.jpeg",
+        "size": "5'",
+        "price": 2500,
+        "location": "Huntersville, North Carolina",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=64739"
+    },
+    {
+        "brand": "Petrof",
+        "model": "1995 Rosewood Petrof 53 inch Grand",
+        "image": "/assets/25e2d2d8/placeholder_sm.jpg",
+        "size": "5'3\"",
+        "price": 15000,
+        "location": "Crozet, Virginia",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=63932"
+    },
+    {
+        "brand": "Mason & Hamlin",
+        "model": "1965 1965 Mason & Hamlin Model A- Owned by concert pianists.",
+        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/61139_62148_68a7700016e59_sm.jpeg",
+        "size": "5'8\"",
+        "price": 4500,
+        "location": "Woodstock, New York",
+        "source": "PianoMart",
+        "link": "https://www.pianomart.com/buy-a-piano/view?id=62148"
+    },
+    {
         "brand": "Other",
         "model": "1961 Soundboard and new action replaced 2010 Located Evanston IL",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/68235_68366_6ad8298a275a0_sm.jpeg",
         "size": "6'",
         "price": 57000,
-        "location": "Edisto Island, South Carolina",
+        "location": "Evanston, IL",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=68366"
     },
@@ -24,8 +84,8 @@
         "model": "2008 Stunning Essex designed by Steinway",
         "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/68218_68350_6ad7df3c85d9a_sm.jpg",
         "size": "5'8\"",
-        "price": 10000,
-        "location": "Glen Head, New York",
+        "price": 5000,
+        "location": "Plainview, New York",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=68350"
     },
@@ -138,65 +198,5 @@
         "location": "Rockledge, Florida",
         "source": "PianoMart",
         "link": "https://www.pianomart.com/buy-a-piano/view?id=65650"
-    },
-    {
-        "brand": "Yamaha",
-        "model": "2004 Yamaha S6 - Single Owner - Excellent Condition",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/64407_64730_69bdc06870456_sm.jpeg",
-        "size": "6'11\"",
-        "price": 35000,
-        "location": "Miami, Florida",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64730"
-    },
-    {
-        "brand": "Young Chang",
-        "model": "2004 Young Chang Platinum Edition JP-175RS Grand Piano (5'9\")",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/63923_64329_6998ee98093a5_sm.jpeg",
-        "size": "5'9\"",
-        "price": 6900,
-        "location": "Boulder, Colorado",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=64329"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1999 Steinway & Sons Model M",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/16209_60945_68f0061583e6a_sm.jpeg",
-        "size": "5'7\"",
-        "price": 34995,
-        "location": "Bellevue, Washington",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=60945"
-    },
-    {
-        "brand": "Steinway",
-        "model": "2019 New-in-2026 STEINWAY & SONS Model B Grand Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/28778_65131_69e13f3e1c651_sm.jpg",
-        "size": "6'11\"",
-        "price": 103950,
-        "location": "Pocatello, Idaho",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65131"
-    },
-    {
-        "brand": "Steinway",
-        "model": "1998 Excellent STEINWAY & SONS Model D 8'11 Grand Piano",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/28778_65129_6a70c01673f10_sm.jpg",
-        "size": "8'11\"",
-        "price": 67950,
-        "location": "Monrovia, California",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=65129"
-    },
-    {
-        "brand": "Yamaha",
-        "model": "2006 2006 Yamaha GC1 Baby Grand - Single Owner GC-1",
-        "image": "https://nyc3.digitaloceanspaces.com/pianomart/uploads/58282_59696_67a4f0670a4d7_sm.jpg",
-        "size": "5'3\"",
-        "price": 8000,
-        "location": "Nashville, Tennessee",
-        "source": "PianoMart",
-        "link": "https://www.pianomart.com/buy-a-piano/view?id=59696"
     }
 ]
